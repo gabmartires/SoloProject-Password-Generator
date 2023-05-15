@@ -26,7 +26,7 @@ This is my first Solo Project from Scrimba! The task was to get familiar with th
 
 ### Links
 
-- 🔗 [Live](https://scrimba-basketballscoreboard.netlify.app)
+- 🔗 [Live](https://scrimba-passwordgenerator.netlify.app/)
 
 ## My process
 
