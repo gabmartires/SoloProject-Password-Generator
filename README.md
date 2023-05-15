@@ -54,3 +54,6 @@ This is my first Solo Project from Scrimba! The task was to get familiar with th
 ### My Projects
 - GitHub [GabMartires](https://github.com/gabmartires)
 
+### Reference
+- Based on project [WebDevTrick.com](https://webdevtrick.com/javascript-random-password-generator/)
+
