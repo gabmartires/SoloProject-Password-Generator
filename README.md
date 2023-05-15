@@ -17,7 +17,7 @@ This is my first Solo Project from Scrimba! The task was to get familiar with th
 
 #### Desktop
 
-![Scoreboard Desktop view](https://github.com/gabmartires/SoloProject-Scoreboard/raw/master/Solo-Project-Basketball-Scoreboard-Desktop.png)
+![Scoreboard Desktop view](https://github.com/gabmartires/SoloProject-Password-Generator/master/images/Solo-Project-JS-Password-Generator.png)
 
 ### Links
 
