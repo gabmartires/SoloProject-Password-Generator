@@ -17,7 +17,7 @@ This is my first Solo Project from Scrimba! The task was to get familiar with th
 
 #### Desktop
 
-![Scoreboard Desktop view](https://github.com/gabmartires/SoloProject-Password-Generator/master/images/Solo-Project-JS-Password-Generator.png)
+![Scoreboard Desktop view]([https://github.com/gabmartires/SoloProject-Password-Generator/master/images/Solo-Project-JS-Password-Generator.png](https://raw.githubusercontent.com/gabmartires/SoloProject-Password-Generator/master/images/Solo-Project-JS-Password-Generator.png))
 
 ### Links
 
