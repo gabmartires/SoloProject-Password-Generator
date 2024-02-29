@@ -1,0 +1,63 @@
+<html lang="en">
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Project - JS Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main>
+        <h1>Generate a <span><br>random password</span></h1>
+        <p>Never use an insecure password again</p>
+        <section>
+            <button id="generate-btn"><i class="fa-solid fa-key"></i> Generate Password</button>
+        </section> 
+        <div>
+            <fieldset>
+                <legend>Select password preferences</legend>
+                <div id="options-mssg">Please select at least one option</div>
+                <div id="copied-mssg">Your password was copied</div> 
+                <hr class="options">
+                <div><span class="message" id="error"></span></div>                 
+                <div class="checkboxes">
+                  <input type="checkbox" id="upper" name="option" value="upper" />
+                  <label for="upperCase">Upper Case</label>
+            
+                  <input type="checkbox" id="lower" name="option"  value="lower" />
+                  <label for="lowerCase">Lower Case</label>
+            
+                  <input type="checkbox" id="number" name="option"  value="numbers"  />
+                  <label for="numbers">Numbers</label>
+
+                  <input type="checkbox" id="symbol" name="option"  value="symbols" />
+                  <label for="symbols">Symbols</label>
+                </div>
+            </fieldset>                      
+        </div>
+        <div class="flex-container">
+            <div class="flex-child">
+                <div class="pass-area"> 
+                    <p id="first-pass-el" ></p>                                         
+                </div>
+                <div>
+                    <button id="copy1" onclick="copyLftBtn()"><i class="fa-solid fa-clipboard"></i> Left Password</button>
+                </div> 
+            </div>       
+            <div class="flex-child">            
+            <div class="pass-area"> 
+                <p id="second-pass-el"></p>                  
+            </div>
+            <div>
+                <button id="copy2" onclick="copyRgtBtn()"><i class="fa-solid fa-clipboard"></i> Right Password</button>
+            </div> 
+        </div>
+        </div>       
+    </main>
+</body>
+<script defer src="index.js"></script>
+</html>
