@@ -12,7 +12,7 @@
 - [My Projects](#my-projects)
 
 ## Overview
-This is my first Solo Project from Scrimba! The task was to get familiar with the Math Random method to create a two-password generator simultaneously. I wanted to include different characters to the password so I added a few options. I was able to create the function with issues but I really struggled associating the variables representing the character set and the checkboxes options. I based my solution on another project so I feel like I really couldn't figure it out by myself. I added a copy password button and a toast notification to inform the user when the password was copied. Happy Coding!
+This is my second Solo Project from Scrimba! The task was to get familiar with the Math Random method to create a two-password generator simultaneously.  
 ### Screenshots
 
 #### Desktop
