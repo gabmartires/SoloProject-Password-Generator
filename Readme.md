@@ -26,7 +26,7 @@ This is my second Solo Project from Scrimba! The task was to get familiar with t
 
 ### Links
 
-- ��� [Live](https://scrimba-passwordgenerator.netlify.app/)
+- 👨‍💻[Live](https://scrimba-gm-passwordgenerator.netlify.app)
 
 ## My process
 
@@ -36,7 +36,6 @@ This is my second Solo Project from Scrimba! The task was to get familiar with t
 - CSS3
 - JavaScript
 - VS Code
-
 ### Built With
 
 - HTML5 Markup
