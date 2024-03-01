@@ -18,9 +18,21 @@ generateBtn.addEventListener("click", function() {
     }) 
 //FYI: I used conditionals because, I was able to push values into an array but I was not able to removed them on uncheck checkbox. I also tried objects with no luck, the values pushed into the array had brackets or it wouldn't recognize every charater set as sigle value and not each individual characters.
 function generate() { 
-    let choices = ""       
+    let choices = ""  
+    if(upperEl.checked == true) {
+        choices += uppercase
+    }     
+    if(lowerEl.checked == true) {
+        choices += uppercase
+    } 
+    if(numberEl.checked == true) {
+        choices += uppercase
+    } 
+    if(symbolEl.checked == true) {
+        choices += uppercase
+    } 
 //Possible combinations based on checkboxes selected
-    if (upperEl.checked == true && lowerEl.checked == true && numberEl.checked == true && symbolEl.checked == true){
+/*    if (upperEl.checked == true && lowerEl.checked == true && numberEl.checked == true && symbolEl.checked == true){
         choices += uppercase + lowercase + numbers + symbols
     } else if (upperEl.checked == true && lowerEl.checked == false && numberEl.checked == false && symbolEl.checked == false){
         choices += uppercase 
@@ -50,9 +62,11 @@ function generate() {
         choices += uppercase + numbers + symbols
     }   else if (upperEl.checked == true && lowerEl.checked == true && numberEl.checked == false && symbolEl.checked == true ){
         choices += uppercase + lowercase + symbols
-    }  
+    }
+*/
+
 //If choices is empty when the function is called it will throw an undefine message             
-       if (choices == 0) {
+       if (choices.length === 0) {
         optionsMssgEl() 
       } else {     
 // If choices isn't empty the function runs the loop
